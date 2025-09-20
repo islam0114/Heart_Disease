@@ -3,10 +3,10 @@ import pickle
 import pandas as pd
 import numpy as np
 
-with open("models/final_model.pkl", "rb") as f:
+with open("../models/final_model.pkl", "rb") as f:
     model = pickle.load(f)
 
-with open("models/scaler.pkl", "rb") as f:
+with open("../models/scaler.pkl", "rb") as f:
     scaler = pickle.load(f)
 
 st.title("❤️ Heart Disease Prediction (Encoded Features)")
