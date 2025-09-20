@@ -21,22 +21,22 @@ Target variable: `num` (Heart disease diagnosis).
 
 Heart_Disease_Project/  
 │── data/  
-│ └── heart_disease.csv  
+│ ├── heart_disease.csv  
 │ ├── heart_disease_clean.csv   
-│ ├── heart_disease_selected_features.csv   
+│ └── heart_disease_selected_features.csv   
 │── notebooks/  
 │ ├── 01_data_preprocessing.ipynb  
 │ ├── 02_pca_analysis.ipynb  
 │ ├── 03_feature_selection.ipynb  
 │ ├── 04_supervised_learning.ipynb  
 │ ├── 05_unsupervised_learning.ipynb  
-│ ├── 06_hyperparameter_tuning.ipynb  
+│ └── 06_hyperparameter_tuning.ipynb  
 │── models/  
-│ └── Decision Tree_model.pkl  
-│ └── Logistic Regression_model.pkl  
-│ └── svm_model.pkl   
-│ └── Random Forest_model.pkl    
-│ └── scaler_model.pkl  
+│ ├── Decision Tree_model.pkl  
+│ ├── Logistic Regression_model.pkl  
+│ ├── svm_model.pkl   
+│ ├── Random Forest_model.pkl    
+│ ├── scaler_model.pkl  
 │ └── final_model.pkl  
 │── ui/  
 │ └── app.py   
@@ -45,7 +45,7 @@ Heart_Disease_Project/
 │── README.md  
 │── requirements.txt  
 │── .gitignore  
-│── LICENSE  
+└── LICENSE  
 
 ---
 
