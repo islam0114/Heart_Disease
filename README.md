@@ -19,27 +19,33 @@ Target variable: `num` (Heart disease diagnosis).
 
 ## Project Structure
 
-Heart_Disease_Project/
-│── data/
-│ └── heart_disease.csv # Raw dataset
-│── notebooks/
-│ ├── 01_data_preprocessing.ipynb
-│ ├── 02_pca_analysis.ipynb
-│ ├── 03_feature_selection.ipynb
-│ ├── 04_supervised_learning.ipynb
-│ ├── 05_unsupervised_learning.ipynb
-│ ├── 06_hyperparameter_tuning.ipynb
-│── models/
-│ └── final_model.pkl # Trained ML model
-│── ui/
-│ └── app.py # Streamlit Web UI
-│── deployment/
-│ └── ngrok_setup.txt # Ngrok instructions
-│── results/
-│ └── evaluation_metrics.txt # Model evaluation results
-│── README.md
-│── requirements.txt
-│── .gitignore
+Heart_Disease_Project/  
+│── data/  
+│ └── heart_disease.csv  
+│ ├── heart_disease_clean.csv   
+│ ├── heart_disease_selected_features.csv   
+│── notebooks/  
+│ ├── 01_data_preprocessing.ipynb  
+│ ├── 02_pca_analysis.ipynb  
+│ ├── 03_feature_selection.ipynb  
+│ ├── 04_supervised_learning.ipynb  
+│ ├── 05_unsupervised_learning.ipynb  
+│ ├── 06_hyperparameter_tuning.ipynb  
+│── models/  
+│ └── Decision Tree_model.pkl  
+│ └── Logistic Regression_model.pkl  
+│ └── svm_model.pkl 
+│ └── Random Forest_model.pkl  
+│ └── scaler_model.pkl  
+│ └── final_model.pkl  
+│── ui/  
+│ └── app.py   
+│── deployment/  
+│ └── streamlit_deployment.txt   
+│── README.md  
+│── requirements.txt  
+│── .gitignore  
+│── LICENSE  
 
 ---
 
