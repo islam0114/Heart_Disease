@@ -12,7 +12,7 @@ with open(model_path, "rb") as f:
 model_path = os.path.join("models", "scaler.pkl")
 
 with open(model_path, "rb") as f:
-    model = pickle.load(f)
+    scaler = pickle.load(f)
 
 st.title("❤️ Heart Disease Prediction (Encoded Features)")
 st.write("Enter your health data to predict the likelihood of heart disease:")
