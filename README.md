@@ -73,7 +73,7 @@ Heart_Disease_Project/
 | Language         | Python                        |
 | Data Processing  | pandas, NumPy                 |
 | Machine Learning | scikit-learn, XGBoost         |
-| Visualization    | Matplotlib, Seaborn, Power BI |
+| Visualization    | Matplotlib, Seaborn           |
 
 ---
 
