@@ -1,21 +1,5 @@
-# Data manipulation
-pandas==2.1.0
-numpy==1.26.0
-
-# Visualization
-matplotlib==3.8.0
-seaborn==0.12.3
-
-# Machine Learning
-scikit-learn==1.3.0
-xgboost==1.7.6
-
-# Streamlit UI
-streamlit==1.27.0
-pyngrok==6.2.2
-
-# Optional for clustering and stats
-scipy==1.11.1
-
-# Joblib/pickle for model saving
-joblib==1.3.2
+scikit-learn
+pandas
+numby
+streamlit
+pickle
