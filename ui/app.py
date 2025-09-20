@@ -14,7 +14,7 @@ model_path = os.path.join("models", "scaler.pkl")
 with open(model_path, "rb") as f:
     scaler = pickle.load(f)
 
-st.title("❤️ Heart Disease Prediction (Encoded Features)")
+st.title("❤️ Heart Disease Prediction")
 st.write("Enter your health data to predict the likelihood of heart disease:")
 
 age = st.number_input("Age (years)", min_value=1, max_value=120, value=50)
