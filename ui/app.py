@@ -2,12 +2,17 @@ import streamlit as st
 import pickle
 import pandas as pd
 import numpy as np
+import os
 
-with open("../models/final_model.pkl", "rb") as f:
+model_path = os.path.join("models", "final_model.pkl")
+
+with open(model_path, "rb") as f:
     model = pickle.load(f)
 
-with open("../models/scaler.pkl", "rb") as f:
-    scaler = pickle.load(f)
+model_path = os.path.join("models", "scaler.pkl")
+
+with open(model_path, "rb") as f:
+    model = pickle.load(f)
 
 st.title("❤️ Heart Disease Prediction (Encoded Features)")
 st.write("Enter your health data to predict the likelihood of heart disease:")
