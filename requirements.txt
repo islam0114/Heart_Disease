@@ -1,5 +1,5 @@
 scikit-learn
 pandas
-numby
+numpy
 streamlit
 pickle
