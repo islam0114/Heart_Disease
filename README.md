@@ -34,8 +34,8 @@ Heart_Disease_Project/
 │── models/  
 │ └── Decision Tree_model.pkl  
 │ └── Logistic Regression_model.pkl  
-│ └── svm_model.pkl 
-│ └── Random Forest_model.pkl  
+│ └── svm_model.pkl   
+│ └── Random Forest_model.pkl    
 │ └── scaler_model.pkl  
 │ └── final_model.pkl  
 │── ui/  
